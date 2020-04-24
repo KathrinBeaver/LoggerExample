@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-04-24T21:18:47</date>
+  <millis>1587752327611</millis>
+  <sequence>0</sequence>
+  <logger>loggerWords</logger>
+  <level>INFO</level>
+  <class>ru.mai.TestLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начинаем эксперименты с логированием</message>
+</record>
+<record>
+  <date>2020-04-24T21:18:47</date>
+  <millis>1587752327639</millis>
+  <sequence>1</sequence>
+  <logger>loggerWords</logger>
+  <level>WARNING</level>
+  <class>ru.mai.TestLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сейчас будем писать много-много данных в системный лог</message>
+</record>
+<record>
+  <date>2020-04-24T21:18:47</date>
+  <millis>1587752327704</millis>
+  <sequence>58</sequence>
+  <logger>loggerWords</logger>
+  <level>SEVERE</level>
+  <class>ru.mai.TestLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>13 - !!!</message>
+</record>
+<record>
+  <date>2020-04-24T21:18:47</date>
+  <millis>1587752327796</millis>
+  <sequence>403</sequence>
+  <logger>loggerWords</logger>
+  <level>INFO</level>
+  <class>ru.mai.TestLogger</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Эксперименты с логированием завершены успешно</message>
+</record>
+</log>
